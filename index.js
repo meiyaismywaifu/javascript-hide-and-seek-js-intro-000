@@ -1,10 +1,12 @@
 function getFirstSelector(selector){
-  var internal = document.querySelector(selector)
+  var internal = document.querySelector(selector);
   return internal;
 }
 
-function nestedTarget(tree, target){
-
+function nestedTarget(){
+  var internal = document.querySelector(#nested);
+  internal = internal.className(target);
+  return internal;
 }
 
 function increaseRankBy(tree){
