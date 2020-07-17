@@ -8,8 +8,11 @@ function nestedTarget(){
   return internal;
 }
 
-function increaseRankBy(tree){
-
+function increaseRankBy(n){
+  var internal = document.querySelectorAll('.ranked-list');
+  internal.forEach(NoArgs => {
+    console.log('foreach testing');
+  })
 }
 
 function deepestChild(tree){
