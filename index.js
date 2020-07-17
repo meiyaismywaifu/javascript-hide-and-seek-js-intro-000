@@ -1,15 +1,15 @@
-function getFirstSelector(){
-
+function getFirstSelector(selector){
+  
 }
 
-function nestedTarget(){
-
+function nestedTarget(tree, target){
+  
 }
 
-function increaseRankBy(){
-
+function increaseRankBy(tree){
+  
 }
 
-function deepestChild(){
-
+function deepestChild(tree){
+  
 }
