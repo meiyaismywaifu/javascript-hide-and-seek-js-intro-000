@@ -1,5 +1,6 @@
 function getFirstSelector(selector){
-
+  var internal = document.querySelector(selector)
+  return internal;
 }
 
 function nestedTarget(tree, target){
