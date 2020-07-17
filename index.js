@@ -4,19 +4,20 @@ function getFirstSelector(selector){
 }
 
 function nestedTarget(){
-  var internal = document.querySelector('#nested .target');
+  var internal = document.querySelector("#nested .target");
   return internal;
 }
 
+function deepestChild(){
+  var internal;
+  var tree = document.querySelector("#grand-node");
 
-function deepestChild(tree){
-
+  return internal;
 }
 
-
 function increaseRankBy(n){
-  var internal = document.querySelectorAll('.ranked-list');
-  console.log(internal);
+  var internal = document.querySelectorAll(".ranked-list");
+  console.log(internal); // this isn't an array apparently
   internal.forEach((element) => {
     //element = parseInt(element) + n;
   })
