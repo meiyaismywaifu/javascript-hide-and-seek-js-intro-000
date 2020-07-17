@@ -5,7 +5,7 @@ function getFirstSelector(selector){
 
 function nestedTarget(){
   var internal = document.querySelector(#nested);
-  internal = internal.className(target);
+  internal = internal.class(target);
   return internal;
 }
 
