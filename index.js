@@ -9,7 +9,7 @@ function nestedTarget(){
 }
 
 function increaseRankBy(n){
-  var internal = document.querySelector('.target');
+  var internal = document.querySelector('#nested .target');
   console.log(internal);
   internal.forEach((element) => {
     //element = parseInt(element) + n;
