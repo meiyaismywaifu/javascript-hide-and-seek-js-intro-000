@@ -11,6 +11,7 @@ function nestedTarget(){
 function deepestChild(){
   var internal;
   var tree = document.querySelector("#grand-node");
+  var branch = tree.children[0];
 
   return internal;
 }
