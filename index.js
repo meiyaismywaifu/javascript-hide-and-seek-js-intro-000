@@ -10,8 +10,19 @@ function nestedTarget(){
 
 function deepestChild(){
   var internal;
+  var trigger = 0;
   var tree = document.querySelector("#grand-node");
-  var branch = tree.children[0];
+  var branch = tree;
+
+  while(trigger === 0){
+    if (branch.children[0] === undefined){
+      trigger = 1;
+    }
+    else{
+      branch = branch.children[0];
+      internal = branch;
+    }
+  }
 
   return internal;
 }
