@@ -30,11 +30,12 @@ function deepestChild(){
 function increaseRankBy(n){
   var internal = document.querySelectorAll(".ranked-list li");
   // querySelectorAll returns a "NodeList", not an array.
-  internal.forEach(element => {
+  /*internal.forEach(element => {
     element.innerHTML = parseInt(element.innerHTML) + n;
-  })
+  })*/
+  // says "internal.forEach is not a function", but NodeList also has forEach.
 
-  /*for (var i = 0; i < internal.length; i++){
+  for (var i = 0; i < internal.length; i++){
     internal[i].innerHTML = parseInt(internal[i].innerHTML) + n;
-  }*/
+  }*
 }
