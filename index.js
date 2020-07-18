@@ -34,7 +34,7 @@ function increaseRankBy(n){
     element.innerHTML = parseInt(element.innerHTML) + n;
   })*/
 
-  for (var i = 0, i < internal.length, i++){
+  for (var i = 0; i < internal.length; i++){
     internal[i].innerHTML = parseInt(internal[i].innerHTML) + n;
   }
 }
