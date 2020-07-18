@@ -30,11 +30,9 @@ function deepestChild(){
 function increaseRankBy(n){
   var internal = document.querySelectorAll(".ranked-list li");
   // querySelectorAll returns a "NodeList", not an array.
-  console.log("------------");
-  console.log(internal[0].innerHTML);
-  /*internal.forEach(element => {
+  internal.forEach(element => {
     element.innerHTML = parseInt(element.innerHTML) + n;
-  })*/
+  })
 
   /*for (var i = 0; i < internal.length; i++){
     internal[i].innerHTML = parseInt(internal[i].innerHTML) + n;
