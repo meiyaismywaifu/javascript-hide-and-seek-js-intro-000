@@ -31,6 +31,10 @@ function increaseRankBy(n){
   var internal = document.querySelectorAll(".ranked-list li");
   // querySelectorAll returns a "NodeList", not an array.
   internal.forEach((element) => {
-    element.HTML = parseInt(element.HTML) + n;
+    element.innerHTML = parseInt(element.innerHTML) + n;
   })
+
+  /*for (var i = 0, i < internal.length, i++){
+    internal[i].inner
+  }*/
 }
