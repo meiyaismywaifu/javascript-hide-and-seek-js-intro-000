@@ -9,6 +9,7 @@ function nestedTarget(){
 }
 
 function deepestChild(){
+  // instructions say to not worry about the general case.
   var internal;
   var trigger = 0;
   var tree = document.querySelector("#grand-node");
