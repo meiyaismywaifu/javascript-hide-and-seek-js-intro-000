@@ -32,6 +32,6 @@ function increaseRankBy(n){
   // querySelectorAll returns a "NodeList", not an array.
   // "forEach" is defined only for arrays.
   internal.forEach((element) => {
-    ;
+    element = parseInt(element) + n;
   })
 }
